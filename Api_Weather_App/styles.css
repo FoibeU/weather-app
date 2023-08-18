@@ -7,19 +7,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('back.png');
+    background-image: url('backs.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
   
   
   }
-  
-  
   .container {
     text-align: center;
     padding: 20px;
-    background-image: url(cont.png);
+    background-image: url(conts.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -45,7 +43,7 @@ body {
     color: #f0f0f0;    
     margin-top: 20px;
     border-radius: 12px;
-    background-image: url(inside.png);
+    background-image: url(insid.png);
   }
   
   

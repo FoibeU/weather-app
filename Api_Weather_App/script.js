@@ -1,11 +1,11 @@
 const searchBtn = document.getElementById("searchBtn");
-const cityInput = document.getElementById("cityInput");
+const cityInputs = document.getElementById("cityInput");
 const weatherInfo = document.getElementById("weatherInfo");
 
 const apiKey = "395a0768e0fa3f2721c3c3ecf4982c33";
 
 searchBtn.addEventListener("click", () => {
-  const city = cityInput.value;
+  const city = cityInputs.value;
   fetchWeather(city);
 });
 
